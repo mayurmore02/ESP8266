@@ -17,15 +17,15 @@ DHT dht(DHTPIN, DHTTYPE, 15);                   //Create the instance for DHT se
 
 // WiFi parameters
 
-#define WLAN_SSID       "OPPO F9"                 //SSID of Home's WiFi network
-#define WLAN_PASS       "12345678"             //Password of Home's WiFi network
+#define WLAN_SSID       "ssid"                 //SSID of Home's WiFi network
+#define WLAN_PASS       "psw"             //Password of Home's WiFi network
 
 // Adafruit IO Broker Initialization
 
 #define AIO_SERVER      "io.adafruit.com"      //Broker domain Name
 #define AIO_SERVERPORT  1883                   //The port at which broker is listening
-#define AIO_USERNAME    "mayurmore02"              //The username which we have initializaed during account creation at io.adafruit.com
-#define AIO_KEY         "aio_Qaoa29tlfDxicGA2vgoo7ZHfYsFU"  //The private ley which will be alloted after creating account
+#define AIO_USERNAME    "adafruit username"              //The username which we have initializaed during account creation at io.adafruit.com
+#define AIO_KEY         "adafruit aio_key"  //The private ley which will be alloted after creating account
 
 //Create an ESP8266 WiFiClient class to connect to the MQTT server.
 
