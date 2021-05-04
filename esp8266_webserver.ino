@@ -11,11 +11,8 @@
 //#define DHTTYPE DHT22   // DHT 22  (AM2302), AM2321
 
 /*Put your SSID & Password*/
-//const char* ssid = "OPPO F9";  // Enter SSID here
-//const char* password = "12345678";  //Enter Password here
-
-const char* ssid = "Lenovo K8 Plus 3294";  // Enter SSID here
-const char* password = "home1234";  //Enter Password here
+const char* ssid = "ssid";  // Enter SSID here
+const char* password = "psw";  //Enter Password here
 
 ESP8266WebServer server(80);
 
