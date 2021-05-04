@@ -4,10 +4,10 @@
 #include <DHT.h>  // Including library for dht
 #include <ESP8266WiFi.h>
  
-String apiKey = "LZ0CHKD4L86BK53V";     //  Enter your Write API key from ThingSpeak
+String apiKey = "your apikey";     //  Enter your Write API key from ThingSpeak
 
-const char *ssid =  "OPPO F9";     // replace with your wifi ssid and wpa2 key
-const char *pass =  "12345678";
+const char *ssid =  "ssid";     // replace with your wifi ssid and wpa2 key
+const char *pass =  "psw";
 const char* server = "api.thingspeak.com";
 
 #define DHTPIN 12          //pin where the dht11 is connected
